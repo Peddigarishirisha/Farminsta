@@ -1,0 +1,103 @@
+
+.edit-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  
+  border-radius: 8px;
+}
+
+.edit-form label {
+  font-weight: bold;
+  color: #111212;
+}
+
+.edit-form input,
+.edit-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #857878;
+  width: 100%;
+}
+
+.edit-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px; 
+}
+
+@media (max-width: 768px) {
+  .edit-form {
+    max-width: 100%;
+    padding: 15px;
+    margin: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .edit-form {
+    padding: 10px;
+    margin: 5px;
+  }
+  
+  .edit-form button {
+    font-size: 14px; 
+  }
+}
+
+/* Header Styling */
+h1 {
+  color: rgb(25, 27, 28);
+  font-family: 'Arial', sans-serif;
+  font-style: italic;
+  text-align: center; 
+  margin: 20px 0;
+}
+
+h1:hover {
+  color: #2da4bb;
+}
+
+/* Main Editor Styling */
+.maineditor {
+  border: 5px solid rgb(203, 192, 192);
+  width: 700px;
+  background: linear-gradient(to right, #061420, #7399a8);
+  box-shadow: -5px 3px;
+  border-radius: 12px;
+  margin: 0 auto; 
+}
+
+@media (max-width: 768px) {
+  .maineditor {
+    width: 100%;
+    padding: 20px;
+    margin: 10px auto; 
+  }
+}
+
+@media (max-width: 480px) {
+  .maineditor {
+    padding: 15px;
+    border-width: 3px; 
+  }
+}
+
+/* Body Background Styling */
+body {
+
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/020/525/157/small/abstract-background-design-background-texture-design-with-abstract-style-creative-illustration-for-advertising-posters-business-cards-flyers-websites-banners-covers-landings-pages-etc-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}

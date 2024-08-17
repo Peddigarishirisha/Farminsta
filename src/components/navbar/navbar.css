@@ -1,0 +1,34 @@
+.navbar {
+    padding: 20px; /* Adjust the padding to increase height */
+    background: #363434;
+    color: #fff;
+    position: sticky;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    /* Add styles for list items if needed */
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  .search svg {
+    font-size: 34px; 
+
+}
+.search{
+  margin-top: 30px;
+}
+  .profilesearch{
+    display: inline-block;
+    margin-top: 20px;
+  }
